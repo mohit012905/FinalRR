@@ -1,0 +1,268 @@
+Raw Input:
+{ "load_id": 123, "t_id": 456 }
+
+Decoded Data:
+Array ( [load_id] => 123 [t_id] => 456 )
+
+Extracted Parameters:
+Load ID: 123
+Transporter ID: 456
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+{"load_id":"undefined"}
+Decoded Data:
+Array
+(
+    [load_id] => undefined
+)
+
+Extracted Parameters:
+Load ID: undefined
+Transporter ID: 
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+{"load_id":"undefined"}
+Decoded Data:
+Array
+(
+    [load_id] => undefined
+)
+
+Extracted Parameters:
+Load ID: undefined
+Transporter ID: 
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+{"load_id":"undefined"}
+Decoded Data:
+Array
+(
+    [load_id] => undefined
+)
+
+Extracted Parameters:
+Load ID: undefined
+Transporter ID: 
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Raw Input:
+
+Decoded Data:
+
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Extracted Load ID: , Transporter ID: 
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Raw JSON Input:
+
+Received Load ID: undefined, Transporter ID: 12
+Received Load ID: undefined, Transporter ID: 12
+Received Load ID: undefined, Transporter ID: 12
+Received Load ID: undefined, Transporter ID: 12
+Received Load ID: undefined, Transporter ID: 12
+Received Load ID: 0, Transporter ID: 12
+Received Load ID: 0, Transporter ID: 12
+Received Load ID: 0, Transporter ID: 12
+Received Load ID: 0, Transporter ID: 12
+Received JSON: 
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Received JSON: 
+Received JSON: 
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: 
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"load_id":"undefined","s_id":"2"}
+Parsed JSON: Array
+(
+    [load_id] => undefined
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"load_id":"undefined","s_id":"2"}
+Parsed JSON: Array
+(
+    [load_id] => undefined
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"load_id":"undefined","s_id":"2"}
+Parsed JSON: Array
+(
+    [load_id] => undefined
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"load_id":"undefined","s_id":"2"}
+Parsed JSON: Array
+(
+    [load_id] => undefined
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
+Received JSON: {"s_id":2}
+Parsed JSON: Array
+(
+    [s_id] => 2
+)
+
+Shipper: 2, Load: 7, Transporter: 2
