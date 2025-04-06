@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4ff; /* Light background color */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #fff; /* Header background color */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove list style */
+    display: flex; /* Flexbox for navigation */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+header nav ul li {
+    margin-right: 20px; /* Space between menu items */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    font-weight: bold; /* Bold font for links */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center text */
+    padding: 50px 20px; /* Padding around the container */
+}
+
+.logo-section {
+    margin-bottom: 40px; /* Space below logo section */
+}
+
+.logo-section img.logo {
+    width: 120px; /* Logo width */
+}
+
+.logo-section h1 {
+    font-size: 48px; /* Title font size */
+    color: #3371ff; /* Title color */
+}
+
+.logo-section p {
+    font-size: 20px; /* Subtitle font size */
+    color: #666; /* Subtitle color */
+}
+
+.register-section {
+    margin-top: 40px; /* Space above register section */
+}
+
+.register-section h2 {
+    font-size: 32px; /* Heading font size */
+    color: #333; /* Heading color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.options {
+    display: flex; /* Use flexbox for options */
+    justify-content: center; /* Center options */
+    gap: 30px; /* Space between options */
+}
+
+.option {
+    background-color: hsl(0, 0%, 100%); /* Background color for options */
+    padding: 20px; /* Padding inside options */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center text */
+    width: 180px; /* Width of each option */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition effects */
+    text-decoration: none; /* Remove underline from option links */
+}
+
+.option:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.option img {
+    width: 80px; /* Image width */
+    height: 80px; /* Image height */
+    margin-bottom: 10px; /* Space below image */
+}
+
+.option p {
+    font-size: 18px; /* Font size for option text */
+    font-weight: bold; /* Bold text for option */
+    color: #3371ff; /* Option text color */
+}
+
+/* Info Section Styling */
+.info-section {
+    margin-top: 40px; /* Space above info section */
+    background-color: #fff; /* Background color */
+    padding: 30px; /* Padding inside info section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    display: none; /* Initially hidden */
+}
+
+.info-section h2 {
+    font-size: 28px; /* Heading font size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.info-section p {
+    font-size: 18px; /* Paragraph font size */
+    color: #333; /* Paragraph color */
+}
+
+.close-section {
+    display: block; /* Block display for close link */
+    margin-top: 20px; /* Space above close link */
+    font-size: 16px; /* Font size for close link */
+    color: #3371ff; /* Close link color */
+    text-decoration: none; /* Remove underline from close link */
+}
+
+.close-section:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Show the targeted section */
+:target {
+    display: block; /* Display block for targeted section */
+}
+
+#about-rover:target, #contact-info:target {
+    display: block; /* Display targeted sections */
+}
